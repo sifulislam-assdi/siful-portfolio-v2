@@ -13,7 +13,27 @@ import {
 import { useLanguage } from "@/context/LanguageContext";
 import siteData from "@/data/siteData.json";
 
-type PortfolioItem = (typeof siteData.portfolio)[0];
+interface PortfolioItem {
+  id: string;
+  category: string;
+  featured: boolean;
+  isSample: boolean;
+  isAiAssisted: boolean;
+  titleEn: string;
+  titleBn: string;
+  oneLinerEn: string;
+  oneLinerBn: string;
+  roleEn: string;
+  roleBn: string;
+  image?: string;
+  youtubeId?: string;
+  goalEn?: string;
+  goalBn?: string;
+  actionEn?: string;
+  actionBn?: string;
+  resultEn?: string;
+  resultBn?: string;
+}
 
 export default function PortfolioSection() {
   const { lang } = useLanguage();
@@ -37,7 +57,7 @@ export default function PortfolioSection() {
   ];
 
   // Featured কাজগুলো আগে দেখাবে
-  const sortedPortfolio = [...siteData.portfolio].sort(
+  const sortedPortfolio = [...(siteData.portfolio as PortfolioItem[])].sort(
     (a, b) => Number(b.featured) - Number(a.featured)
   );
 
@@ -56,7 +76,7 @@ export default function PortfolioSection() {
           <p className="mt-3 text-sm sm:text-base text-slate-400">
             {lang === "en"
               ? "Click any project card to watch the video, inspect the design, or read the Meta campaign case study."
-              : "ভিডিও দেখতে, ডিজাইন বড় করে দেখতে বা মেটা মার্কেটিং কেস স্টাডি পড়তে যেকোনো কার্ডে ক্লিক করুন।"}
+              : "ভিডিও দেখতে, ডিজাইন বড় করে দেখতে বা মেটা মার্কেটিং কেস স্টাডি পড়তে যেকোনো কার্ডে ক্লিক করুন।"}
           </p>
         </div>
 
@@ -229,7 +249,7 @@ export default function PortfolioSection() {
                 {lang === "en" ? selectedItem.titleEn : selectedItem.titleBn}
               </h3>
 
-              {/* ভিডিও হলে ক্লিক করার পর ইউটিউব প্লেয়ার লোড হবে */}
+              {/* ভিডিও হলে ক্লিক করার পর ইউটিউব প্লেয়ার লোড হবে */}
               {selectedItem.youtubeId ? (
                 <div className="aspect-video w-full rounded-xl overflow-hidden bg-black border border-slate-700 mb-5">
                   <iframe
