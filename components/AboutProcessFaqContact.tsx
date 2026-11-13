@@ -9,6 +9,7 @@ import {
   ExternalLink,
   Send,
   CheckCircle2,
+  AlertCircle,
   Cpu,
   Layers,
   FileText,
@@ -19,7 +20,11 @@ import siteData from "@/data/siteData.json";
 export default function AboutProcessFaqContact() {
   const { lang } = useLanguage();
   const [openFaq, setOpenFaq] = useState<number | null>(0);
-  const [formSent, setFormSent] = useState(false);
+  const [isSending, setIsSending] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+
+  // নিচের কোটেশনের ভেতরে তোমার কপি করা Access Key-টি বসাও
+  const WEB3FORMS_ACCESS_KEY = "f3b6c940-a68a-4014-b509-05cb18f1b355";
 
   const processSteps = [
     {
@@ -27,7 +32,7 @@ export default function AboutProcessFaqContact() {
       titleEn: "Discussion",
       titleBn: "আলোচনা",
       descEn: "We talk about your goal, target audience, style, and timeline.",
-      descBn: "আপনার কাজের লক্ষ্য, দর্শক, পছন্দ এবং সময় নিয়ে বিস্তারিত আলোচনা।",
+      descBn: "আপনার কাজের লক্ষ্য, দর্শক, পছন্দ এবং সময় নিয়ে বিস্তারিত আলোচনা।",
     },
     {
       num: "02",
@@ -36,7 +41,7 @@ export default function AboutProcessFaqContact() {
       descEn:
         "I create the initial edit, design layout, or ad setup for your review.",
       descBn:
-        "আপনার দেখার জন্য ভিডিও এডিট, ডিজাইন বা বিজ্ঞাপনের প্রথম খসড়া তৈরি।",
+        "আপনার দেখার জন্য ভিডিও এডিট, ডিজাইন বা বিজ্ঞাপনের প্রথম খসড়া তৈরি।",
     },
     {
       num: "03",
@@ -45,7 +50,7 @@ export default function AboutProcessFaqContact() {
       descEn:
         "You share feedback and I refine the details until everything looks right.",
       descBn:
-        "আপনার মতামত অনুযায়ী লেখা, রং বা দৃশ্যের প্রয়োজনীয় পরিবর্তন।",
+        "আপনার মতামত অনুযায়ী লেখা, রং বা দৃশ্যের প্রয়োজনীয় পরিবর্তন।",
     },
     {
       num: "04",
@@ -53,14 +58,50 @@ export default function AboutProcessFaqContact() {
       titleBn: "চূড়ান্ত ডেলিভারি",
       descEn:
         "High-resolution files or live campaign handover delivered on time.",
-      descBn: "সময়মতো হাই-রেজোলিউশন ফাইল বা চালু বিজ্ঞাপন ক্যাম্পেইন হস্তান্তর।",
+      descBn: "সময়মতো হাই-রেজোলিউশন ফাইল বা চালু বিজ্ঞাপন ক্যাম্পেইন হস্তান্তর।",
     },
   ];
 
-  const handleDemoSubmit = (e: React.FormEvent) => {
+  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setFormSent(true);
-    setTimeout(() => setFormSent(false), 5000);
+    setIsSending(true);
+    setSubmitStatus("idle");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const payload = {
+      access_key: WEB3FORMS_ACCESS_KEY,
+      subject: "New Inquiry from Siful Islam Portfolio",
+      from_name: "Portfolio Website",
+      name: formData.get("name"),
+      contact: formData.get("contact"),
+      service: formData.get("service"),
+      message: formData.get("message"),
+    };
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setSubmitStatus("success");
+        form.reset();
+      } else {
+        setSubmitStatus("error");
+      }
+    } catch {
+      setSubmitStatus("error");
+    } finally {
+      setIsSending(false);
+    }
   };
 
   return (
@@ -83,7 +124,7 @@ export default function AboutProcessFaqContact() {
             <h2 className="mt-2 text-2xl sm:text-4xl font-bold text-[#F8FAFC]">
               {lang === "en"
                 ? "Creative Visuals Backed by Clear Strategy"
-                : "সৃজনশীল ভিজ্যুয়াল ও গোছানো মার্কেটিংয়ের সমন্বয়"}
+                : "সৃজনশীল ভিজ্যুয়াল ও গোছানো মার্কেটিংয়ের সমন্বয়"}
             </h2>
             <p className="mt-4 text-sm sm:text-base text-slate-300 leading-relaxed">
               {lang === "en" ? siteData.about.storyEn : siteData.about.storyBn}
@@ -238,7 +279,7 @@ export default function AboutProcessFaqContact() {
               <p className="mt-2 text-sm text-slate-300">
                 {lang === "en"
                   ? "Tell me what you need—single video, monthly social media designs, or an ad campaign—and get a clear quote."
-                  : "একটি ভিডিও, মাসিক সোশ্যাল মিডিয়া ডিজাইন বা বিজ্ঞাপন ক্যাম্পেইন—আপনার প্রয়োজন জানালেই আমি স্পষ্ট খরচ জানিয়ে দেব।"}
+                  : "একটি ভিডিও, মাসিক সোশ্যাল মিডিয়া ডিজাইন বা বিজ্ঞাপন ক্যাম্পেইন—আপনার প্রয়োজন জানালেই আমি স্পষ্ট খরচ জানিয়ে দেব।"}
               </p>
             </div>
 
@@ -383,7 +424,7 @@ export default function AboutProcessFaqContact() {
           {/* ডান পাশ: যোগাযোগ ফর্ম */}
           <div className="lg:col-span-7">
             <form
-              onSubmit={handleDemoSubmit}
+              onSubmit={handleFormSubmit}
               className="p-6 sm:p-8 rounded-2xl bg-[#1E293B]/85 border border-slate-800 space-y-5 shadow-xl"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -393,6 +434,7 @@ export default function AboutProcessFaqContact() {
                   </label>
                   <input
                     type="text"
+                    name="name"
                     required
                     placeholder={
                       lang === "en" ? "Enter your name" : "নাম লিখুন"
@@ -409,6 +451,7 @@ export default function AboutProcessFaqContact() {
                   </label>
                   <input
                     type="text"
+                    name="contact"
                     required
                     placeholder={
                       lang === "en"
@@ -422,9 +465,12 @@ export default function AboutProcessFaqContact() {
 
               <div>
                 <label className="block text-xs font-medium text-slate-300 mb-1.5">
-                  {lang === "en" ? "Service Needed" : "কোন সেবাটি প্রয়োজন?"}
+                  {lang === "en" ? "Service Needed" : "কোন সেবাটি প্রয়োজন?"}
                 </label>
-                <select className="w-full px-4 py-3 rounded-xl bg-[#0B1120] border border-slate-700 text-sm text-[#F8FAFC] focus:outline-none focus:border-[#38BDF8] transition-colors">
+                <select
+                  name="service"
+                  className="w-full px-4 py-3 rounded-xl bg-[#0B1120] border border-slate-700 text-sm text-[#F8FAFC] focus:outline-none focus:border-[#38BDF8] transition-colors"
+                >
                   <option value="Video Editing">
                     {lang === "en" ? "Video Editing" : "ভিডিও এডিটিং"}
                   </option>
@@ -452,6 +498,7 @@ export default function AboutProcessFaqContact() {
                   {lang === "en" ? "Project Details" : "কাজের বিবরণ"}
                 </label>
                 <textarea
+                  name="message"
                   rows={4}
                   required
                   placeholder={
@@ -467,21 +514,39 @@ export default function AboutProcessFaqContact() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 type="submit"
-                className="w-full py-3.5 rounded-xl font-semibold text-sm bg-[#38BDF8] text-[#0B1120] hover:bg-[#7DD3FC] hover:shadow-[0_8px_24px_rgba(56,189,248,0.35)] transition-all flex items-center justify-center gap-2 cursor-pointer"
+                disabled={isSending}
+                className="w-full py-3.5 rounded-xl font-semibold text-sm bg-[#38BDF8] text-[#0B1120] hover:bg-[#7DD3FC] disabled:opacity-60 hover:shadow-[0_8px_24px_rgba(56,189,248,0.35)] transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
                 <Send className="w-4 h-4" />
                 <span>
-                  {lang === "en" ? "Send Message" : "মেসেজ পাঠান"}
+                  {isSending
+                    ? lang === "en"
+                      ? "Sending..."
+                      : "পাঠানো হচ্ছে..."
+                    : lang === "en"
+                    ? "Send Message"
+                    : "মেসেজ পাঠান"}
                 </span>
               </motion.button>
 
-              {formSent && (
+              {submitStatus === "success" && (
                 <div className="flex items-center gap-2 p-3.5 rounded-xl bg-emerald-500/15 border border-emerald-500/40 text-xs sm:text-sm text-emerald-300">
                   <CheckCircle2 className="w-4 h-4 shrink-0" />
                   <span>
                     {lang === "en"
-                      ? "Preview mode: In Step 6, this form will send messages directly to your email!"
-                      : "প্রিভিউ মোড: ধাপ ৬-এ এই ফর্মটি সরাসরি আপনার ইমেইলে মেসেজ পাঠানোর জন্য যুক্ত করা হবে!"}
+                      ? "Thank you! Your message has been sent directly to my email."
+                      : "ধন্যবাদ! আপনার মেসেজটি সরাসরি আমার ইমেইলে পাঠানো হয়েছে।"}
+                  </span>
+                </div>
+              )}
+
+              {submitStatus === "error" && (
+                <div className="flex items-center gap-2 p-3.5 rounded-xl bg-rose-500/15 border border-rose-500/40 text-xs sm:text-sm text-rose-300">
+                  <AlertCircle className="w-4 h-4 shrink-0" />
+                  <span>
+                    {lang === "en"
+                      ? "Something went wrong. Please message me directly on WhatsApp!"
+                      : "মেসেজ পাঠাতে সমস্যা হয়েছে। অনুগ্রহ করে সরাসরি WhatsApp-এ মেসেজ দিন!"}
                   </span>
                 </div>
               )}
