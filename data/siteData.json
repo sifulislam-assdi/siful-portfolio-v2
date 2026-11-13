@@ -1,0 +1,230 @@
+{
+  "hero": {
+    "badgeEn": "Available for Freelance & Remote Projects",
+    "badgeBn": "ফ্রিল্যান্স ও রিমোট কাজের জন্য প্রস্তুত",
+    "headlineEn": "Turning Ideas into Engaging Videos, Clean Designs & Smart Meta Ads.",
+    "headlineBn": "আপনার আইডিয়াকে আকর্ষণীয় ভিডিও, পরিচ্ছন্ন ডিজাইন এবং কার্যকর মেটা অ্যাডে রূপান্তর করি।",
+    "subheadlineEn": "Hi, I'm Siful Islam — a dedicated Video Editor, Graphic Designer & Meta Marketer helping brands and creators stand out online with modern visuals and AI-assisted workflows.",
+    "subheadlineBn": "আমি সাইফুল ইসলাম — একজন ভিডিও এডিটর, গ্রাফিক ডিজাইনার ও মেটা মার্কেটার। আধুনিক ভিজ্যুয়াল ও AI-সমর্থিত কাজের মাধ্যমে আপনার ব্র্যান্ডকে অনলাইনে এগিয়ে নিতে সাহায্য করি।",
+    "profileImage": ""
+  },
+  "services": [
+    {
+      "id": "video-editing",
+      "icon": "video",
+      "titleEn": "Video Editing",
+      "titleBn": "ভিডিও এডিটিং",
+      "shortEn": "High-retention Reels, YouTube videos, promotional ads, and product showcase videos.",
+      "shortBn": "আকর্ষণীয় রিলস, ইউটিউব ভিডিও, বিজ্ঞাপন ভিডিও এবং প্রোডাক্ট প্রমোশনাল ভিডিও।",
+      "detailsEn": [
+        "Facebook & Instagram Reels / Shorts editing",
+        "Promotional & Ad videos for businesses",
+        "YouTube talking-head & vlog editing",
+        "Smooth transitions, motion text & clean sound design"
+      ],
+      "detailsBn": [
+        "ফেসবুক ও ইনস্টাগ্রাম রিলস / শর্টস এডিটিং",
+        "ব্যবসার জন্য প্রমোশনাল ও বিজ্ঞাপন ভিডিও",
+        "ইউটিউব ভিডিও ও ভ্লগ এডিটিং",
+        "স্মুথ ট্রানজিশন, মোশন টেক্সট ও পরিষ্কার সাউন্ড ডিজাইন"
+      ]
+    },
+    {
+      "id": "graphic-design",
+      "icon": "palette",
+      "titleEn": "Graphic Design",
+      "titleBn": "গ্রাফিক ডিজাইন",
+      "shortEn": "Eye-catching social media posts, ad banners, YouTube thumbnails, and event posters.",
+      "shortBn": "চোখধাঁধানো সোশ্যাল মিডিয়া পোস্ট, অ্যাড ব্যানার, ইউটিউব থাম্বনেইল এবং পোস্টার।",
+      "detailsEn": [
+        "Scroll-stopping Facebook & Instagram post designs",
+        "High-CTR YouTube video thumbnails",
+        "Web banners, flyers, and promotional posters",
+        "Brand-consistent colors and clean typography"
+      ],
+      "detailsBn": [
+        "আকর্ষণীয় ফেসবুক ও ইনস্টাগ্রাম পোস্ট ডিজাইন",
+        "ক্লিক-যোগ্য ইউটিউব ভিডিও থাম্বনেইল",
+        "ওয়েব ব্যানার, ফ্লায়ার এবং প্রমোশনাল পোস্টার",
+        "ব্র্যান্ডের সাথে মানানসই রং ও পরিচ্ছন্ন টাইপোগ্রাফি"
+      ]
+    },
+    {
+      "id": "meta-marketing",
+      "icon": "megaphone",
+      "titleEn": "Meta Marketing",
+      "titleBn": "মেটা মার্কেটিং",
+      "shortEn": "Complete Facebook & Instagram page setup, targeted ad campaigns, and clear reporting.",
+      "shortBn": "ফেসবুক ও ইনস্টাগ্রাম পেজ সেটআপ, সঠিক টার্গেটিংয়ে বিজ্ঞাপন ক্যাম্পেইন এবং রিপোর্ট।",
+      "detailsEn": [
+        "Professional Facebook Business Page setup & optimization",
+        "Audience research & targeted ad campaign setup",
+        "Ad creative & copywriting support",
+        "Clear campaign performance summary & reporting"
+      ],
+      "detailsBn": [
+        "প্রফেশনাল ফেসবুক বিজনেস পেজ সেটআপ ও অপ্টিমাইজেশন",
+        "সঠিক কাস্টমার টার্গেটিং ও বিজ্ঞাপন ক্যাম্পেইন পরিচালনা",
+        "বিজ্ঞাপনের জন্য আকর্ষণীয় ছবি/ভিডিও ও লেখা তৈরি",
+        "ক্যাম্পেইনের ফলাফলের সহজ ও স্পষ্ট রিপোর্ট"
+      ]
+    }
+  ],
+  "supportingServices": [
+    {
+      "titleEn": "AI-Assisted Video & Image Creation",
+      "titleBn": "AI-Assisted ভিডিও ও ছবি তৈরি",
+      "descEn": "Custom AI-generated visuals, voice-synced scenes, and creative concepts clearly labeled as AI-assisted.",
+      "descBn": "আধুনিক AI টুল ব্যবহার করে কাস্টম ভিজ্যুয়াল ও ক্রিয়েটিভ কনসেপ্ট তৈরি (আলাদাভাবে AI-assisted চিহ্নিত)।"
+    },
+    {
+      "titleEn": "Office, Data & Email Support",
+      "titleBn": "অফিস, ডেটা ও ইমেইল ব্যবস্থাপনা",
+      "descEn": "Organized data entry and documentation using Google Sheets, Google Docs, MS Excel, MS Word, and professional email management.",
+      "descBn": "Google Sheets, Docs, MS Excel, MS Word দিয়ে ডেটা এন্ট্রি, ডকুমেন্ট তৈরি এবং ইমেইল ব্যবস্থাপনা।"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "sample-video-1",
+      "category": "Video Editing",
+      "featured": true,
+      "isSample": true,
+      "isAiAssisted": false,
+      "titleEn": "Promotional Brand Reel (Sample)",
+      "titleBn": "প্রমোশনাল ব্র্যান্ড রিল (নমুনা)",
+      "oneLinerEn": "Fast-paced 30-second promotional video edit with dynamic captions and sound effects.",
+      "oneLinerBn": "ডাইনামিক ক্যাপশন ও সাউন্ড ইফেক্টসহ ৩০ সেকেন্ডের আকর্ষণীয় প্রমোশনাল ভিডিও এডিট।",
+      "roleEn": "Video Editing, Motion Text & Sound Sync (Premiere Pro & After Effects)",
+      "roleBn": "ভিডিও এডিটিং, মোশন টেক্সট ও সাউন্ড সিঙ্ক (Premiere Pro ও After Effects)",
+      "youtubeId": "dQw4w9WgXcQ",
+      "image": "",
+      "goalEn": "",
+      "goalBn": "",
+      "actionEn": "",
+      "actionBn": "",
+      "resultEn": "",
+      "resultBn": ""
+    },
+    {
+      "id": "sample-design-1",
+      "category": "Graphic Design",
+      "featured": true,
+      "isSample": true,
+      "isAiAssisted": false,
+      "titleEn": "Social Media Product Ad Banner",
+      "titleBn": "সোশ্যাল মিডিয়া প্রোডাক্ট অ্যাড ব্যানার",
+      "oneLinerEn": "Clean commercial social media creative designed for higher engagement and clarity.",
+      "oneLinerBn": "ক্রেতাদের দৃষ্টি আকর্ষণের জন্য পরিচ্ছন্ন কমার্শিয়াল সোশ্যাল মিডিয়া পোস্ট ডিজাইন।",
+      "roleEn": "Concept, Layout & Typography (Adobe Photoshop & Illustrator)",
+      "roleBn": "কনসেপ্ট, লেআউট ও টাইপোগ্রাফি (Adobe Photoshop ও Illustrator)",
+      "youtubeId": "",
+      "image": "",
+      "goalEn": "",
+      "goalBn": "",
+      "actionEn": "",
+      "actionBn": "",
+      "resultEn": "",
+      "resultBn": ""
+    },
+    {
+      "id": "sample-meta-1",
+      "category": "Meta Marketing",
+      "featured": true,
+      "isSample": true,
+      "isAiAssisted": false,
+      "titleEn": "Local Brand Awareness & Lead Campaign",
+      "titleBn": "লোকাল ব্র্যান্ড সচেতনতা ও লিড ক্যাম্পেইন",
+      "oneLinerEn": "Structured Facebook ad campaign setup with audience segmentation and creative testing.",
+      "oneLinerBn": "সঠিক অডিয়েন্স টার্গেটিং ও ক্রিয়েটিভ টেস্টিংসহ ফেসবুক বিজ্ঞাপন ক্যাম্পেইন সেটআপ।",
+      "roleEn": "Campaign Setup, Audience Targeting & Ad Creative",
+      "roleBn": "ক্যাম্পেইন সেটআপ, অডিয়েন্স টার্গেটিং ও অ্যাড ক্রিয়েটিভ",
+      "youtubeId": "",
+      "image": "",
+      "goalEn": "Reach relevant local customers interested in everyday lifestyle products and drive direct inbox inquiries.",
+      "goalBn": "দৈনন্দিন পণ্যে আগ্রহী সঠিক ক্রেতাদের কাছে পৌঁছানো এবং পেজের ইনবক্সে সরাসরি মেসেজ বাড়ানো।",
+      "actionEn": "Configured Business Manager, designed scroll-stopping ad visuals, wrote clear Bangla ad copy, and set up interest-based audience targeting.",
+      "actionBn": "বিজনেস ম্যানেজার সেটআপ, আকর্ষণীয় অ্যাড ডিজাইন, সহজ বাংলায় বিজ্ঞাপনের লেখা এবং আগ্রহভিত্তিক কাস্টমার টার্গেটিং সম্পন্ন করা হয়েছে।",
+      "resultEn": "Delivered a clean, trackable campaign structure ready for scaling with organized performance reporting in Google Sheets.",
+      "resultBn": "সহজে ট্র্যাক করার উপযোগী ক্যাম্পেইন কাঠামো তৈরি এবং Google Sheets-এ পরিষ্কার ফলাফল রিপোর্ট প্রস্তুত করা হয়েছে।"
+    },
+    {
+      "id": "sample-ai-1",
+      "category": "AI-assisted",
+      "featured": false,
+      "isSample": true,
+      "isAiAssisted": true,
+      "titleEn": "AI-Assisted Travel Promo Concept",
+      "titleBn": "AI-Assisted ট্রাভেল প্রমোশনাল কনসেপ্ট",
+      "oneLinerEn": "Visual storytelling ad concept combining AI-generated scenes with manual Premiere Pro editing.",
+      "oneLinerBn": "AI-তৈরি দৃশ্য এবং ম্যানুয়াল Premiere Pro এডিটিংয়ের সমন্বয়ে তৈরি বিজ্ঞাপন কনসেপ্ট।",
+      "roleEn": "AI Prompting, Scene Generation & Final Video Assembly",
+      "roleBn": "AI প্রম্পটিং, দৃশ্য তৈরি ও চূড়ান্ত ভিডিও এডিটিং",
+      "youtubeId": "dQw4w9WgXcQ",
+      "image": "",
+      "goalEn": "",
+      "goalBn": "",
+      "actionEn": "",
+      "actionBn": "",
+      "resultEn": "",
+      "resultBn": ""
+    },
+    {
+      "id": "sample-design-2",
+      "category": "Graphic Design",
+      "featured": false,
+      "isSample": true,
+      "isAiAssisted": false,
+      "titleEn": "YouTube Thumbnail & Event Poster",
+      "titleBn": "ইউটিউব থাম্বনেইল ও ইভেন্ট পোস্টার",
+      "oneLinerEn": "High-contrast thumbnail and typography-focused poster designed for mobile readability.",
+      "oneLinerBn": "মোবাইল স্ক্রিনে স্পষ্ট পড়ার উপযোগী হাই-কনট্রাস্ট থাম্বনেইল ও পোস্টার ডিজাইন।",
+      "roleEn": "Photo Retouching & Bangla/English Typography (Photoshop & Canva)",
+      "roleBn": "ফটো রিটাচিং ও বাংলা/ইংরেজি টাইপোগ্রাফি (Photoshop ও Canva)",
+      "youtubeId": "",
+      "image": "",
+      "goalEn": "",
+      "goalBn": "",
+      "actionEn": "",
+      "actionBn": "",
+      "resultEn": "",
+      "resultBn": ""
+    }
+  ],
+  "about": {
+    "storyEn": "I am Siful Islam, a passionate fresher specializing in Video Editing, Graphic Design, and Meta Marketing. I combine hands-on training in visual storytelling and small business marketing with modern AI tools to deliver clean, effective digital content. Whether you need engaging social media videos, eye-catching graphics, or structured Facebook ad campaigns, I focus on clear communication, honest work, and on-time delivery.",
+    "storyBn": "আমি সাইফুল ইসলাম — ভিডিও এডিটিং, গ্রাফিক ডিজাইন ও মেটা মার্কেটিংয়ে দক্ষ একজন নিবেদিতপ্রাণ ফ্রেশার। ভিজ্যুয়াল স্টোরিটেলিং এবং স্মল বিজনেস মার্কেটিংয়ের বাস্তব প্রশিক্ষণের সাথে আধুনিক AI টুল ব্যবহার করে আমি পরিচ্ছন্ন ও কার্যকর ডিজিটাল কনটেন্ট তৈরি করি। সোশ্যাল মিডিয়া ভিডিও, আকর্ষণীয় গ্রাফিক্স কিংবা গোছানো ফেসবুক বিজ্ঞাপন—প্রতিটি কাজে আমি স্বচ্ছ যোগাযোগ এবং সময়মতো ডেলিভারিকে সর্বোচ্চ গুরুত্ব দিই।"
+  },
+  "faqs": [
+    {
+      "qEn": "What services can you help me with?",
+      "qBn": "আপনি আমাকে কোন কোন কাজে সাহায্য করতে পারবেন?",
+      "aEn": "I provide Video Editing (Reels, YouTube, Product & Ad videos), Graphic Design (Social media posts, banners, thumbnails, posters), Meta Marketing (Page setup & Facebook/Instagram ad campaigns), AI-assisted visuals, and office/data support.",
+      "aBn": "আমি ভিডিও এডিটিং (রিলস, ইউটিউব, প্রোডাক্ট ও বিজ্ঞাপন ভিডিও), গ্রাফিক ডিজাইন (সোশ্যাল মিডিয়া পোস্ট, ব্যানার, থাম্বনেইল, পোস্টার), মেটা মার্কেটিং (পেজ সেটআপ ও বিজ্ঞাপন ক্যাম্পেইন), AI-assisted ভিজ্যুয়াল এবং অফিস/ডেটা সাপোর্ট দিয়ে থাকি।"
+    },
+    {
+      "qEn": "How do we start working together?",
+      "qBn": "আমরা কীভাবে কাজ শুরু করতে পারি?",
+      "aEn": "Simply send me a message via WhatsApp or the Contact form below with your project idea. We will discuss your requirements, timeline, and budget before starting the first draft.",
+      "aBn": "নিচের কন্টাক্ট ফর্ম বা WhatsApp বাটনে ক্লিক করে আপনার কাজের বিবরণ পাঠান। আমরা প্রথমে আপনার প্রয়োজন, সময় এবং বাজেট নিয়ে আলোচনা করে খসড়া কাজ শুরু করব।"
+    },
+    {
+      "qEn": "Do you provide revisions if I need changes?",
+      "qBn": "কাজে কোনো পরিবর্তনের দরকার হলে কি সংশোধন (Revision) করে দেবেন?",
+      "aEn": "Yes! Every project includes revision rounds so we can adjust text, colors, pacing, or details until you are satisfied with the final result.",
+      "aBn": "হ্যাঁ, অবশ্যই! প্রতিটি প্রজেক্টেই সংশোধনের সুযোগ থাকে, যাতে লেখা, রং বা ভিডিওর গতি আপনার পছন্দমতো ঠিক করে চূড়ান্ত ডেলিভারি দেওয়া যায়।"
+    },
+    {
+      "qEn": "Can you work in both Bangla and English?",
+      "qBn": "আপনি কি বাংলা ও ইংরেজি—দুটো ভাষাতেই কাজ করতে পারেন?",
+      "aEn": "Yes, I design graphics, edit videos with captions, and write ad copy in both Bangla and English depending on your target audience.",
+      "aBn": "জি, আপনার কাস্টমার বা দর্শকদের চাহিদা অনুযায়ী আমি বাংলা এবং ইংরেজি—উভয় ভাষাতেই ডিজাইন, ভিডিও ক্যাপশন এবং বিজ্ঞাপনের লেখা তৈরি করতে পারি।"
+    },
+    {
+      "qEn": "How do I get a price quote for my project?",
+      "qBn": "আমার কাজের জন্য খরচ বা কোটেশন কীভাবে জানব?",
+      "aEn": "Since every video, design, or ad campaign has different needs, click 'Get a Quote' or message me on WhatsApp with your details, and I will share a fair, transparent price.",
+      "aBn": "প্রতিটি ভিডিও, ডিজাইন বা বিজ্ঞাপন ক্যাম্পেইনের ধরন আলাদা হয়। তাই 'কোটেশন নিন' বাটনে ক্লিক করে বা WhatsApp-এ কাজের বিবরণ জানালে আমি আপনাকে ন্যায্য ও স্পষ্ট খরচ জানিয়ে দেব।"
+    }
+  ]
+}

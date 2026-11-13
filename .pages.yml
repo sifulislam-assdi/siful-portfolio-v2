@@ -1,0 +1,183 @@
+media:
+  input: public/images
+  output: /images
+  categories: [image]
+
+content:
+  - name: site-data
+    label: Portfolio Content (পোর্টফোলিওর সব তথ্য)
+    type: file
+    path: data/siteData.json
+    format: json
+    fields:
+      - name: hero
+        label: 1. Hero Section (উপরের মূল পরিচিতি)
+        type: object
+        fields:
+          - name: badgeEn
+            label: Top Badge (English)
+            type: string
+          - name: badgeBn
+            label: উপরের ব্যাজ (বাংলা)
+            type: string
+          - name: headlineEn
+            label: Main Headline (English)
+            type: text
+          - name: headlineBn
+            label: মূল শিরোনাম (বাংলা)
+            type: text
+          - name: subheadlineEn
+            label: Short Intro (English)
+            type: text
+          - name: subheadlineBn
+            label: সংক্ষিপ্ত বর্ণনা (বাংলা)
+            type: text
+          - name: profileImage
+            label: Profile Photo (প্রোফাইল ছবি - ১ MB এর নিচে)
+            type: image
+
+      - name: services
+        label: 2. Main Services (প্রধান ৩টি সেবা)
+        type: object
+        list: true
+        fields:
+          - name: id
+            label: ID (ইংরেজিতে ছোট নাম)
+            type: string
+          - name: icon
+            label: Icon Type
+            type: select
+            options:
+              values: [video, palette, megaphone]
+          - name: titleEn
+            label: Service Title (English)
+            type: string
+          - name: titleBn
+            label: সেবার শিরোনাম (বাংলা)
+            type: string
+          - name: shortEn
+            label: Short Description (English)
+            type: text
+          - name: shortBn
+            label: সংক্ষিপ্ত বিবরণ (বাংলা)
+            type: text
+          - name: detailsEn
+            label: Bullet Points (English)
+            type: string
+            list: true
+          - name: detailsBn
+            label: বিস্তারিত তালিকা (বাংলা)
+            type: string
+            list: true
+
+      - name: supportingServices
+        label: 3. Supporting Services (সহায়ক সেবা)
+        type: object
+        list: true
+        fields:
+          - name: titleEn
+            label: Title (English)
+            type: string
+          - name: titleBn
+            label: শিরোনাম (বাংলা)
+            type: string
+          - name: descEn
+            label: Description (English)
+            type: text
+          - name: descBn
+            label: বিবরণ (বাংলা)
+            type: text
+
+      - name: portfolio
+        label: 4. Portfolio Items (পোর্টফোলিওর কাজসমূহ)
+        type: object
+        list: true
+        fields:
+          - name: id
+            label: Project ID (যেমন video-1)
+            type: string
+          - name: category
+            label: Category (কাজের ধরন)
+            type: select
+            options:
+              values: [Video Editing, Graphic Design, Meta Marketing, AI-assisted]
+          - name: featured
+            label: Featured (সেরা কাজ হিসেবে আগে দেখাবে?)
+            type: boolean
+          - name: isSample
+            label: Sample Project (নমুনা কাজ?)
+            type: boolean
+          - name: isAiAssisted
+            label: AI-assisted (AI দিয়ে তৈরি?)
+            type: boolean
+          - name: titleEn
+            label: Project Title (English)
+            type: string
+          - name: titleBn
+            label: কাজের শিরোনাম (বাংলা)
+            type: string
+          - name: oneLinerEn
+            label: One-line Summary (English)
+            type: text
+          - name: oneLinerBn
+            label: এক লাইনের বিবরণ (বাংলা)
+            type: text
+          - name: roleEn
+            label: My Role (English)
+            type: string
+          - name: roleBn
+            label: আমার ভূমিকা (বাংলা)
+            type: string
+          - name: youtubeId
+            label: YouTube Video ID (লিংকের v= এর পরের অংশটুকু, ভিডিও না হলে খালি রাখুন)
+            type: string
+          - name: image
+            label: Thumbnail or Design Image (ছবি - ১ MB এর নিচে)
+            type: image
+          - name: goalEn
+            label: Meta Case Study - Goal (English, শুধু মেটা মার্কেটিংয়ের জন্য)
+            type: text
+          - name: goalBn
+            label: মেটা কেস স্টাডি - লক্ষ্য (বাংলা)
+            type: text
+          - name: actionEn
+            label: Meta Case Study - What I Did (English)
+            type: text
+          - name: actionBn
+            label: মেটা কেস স্টাডি - আমি কী করেছি (বাংলা)
+            type: text
+          - name: resultEn
+            label: Meta Case Study - Outcome (English)
+            type: text
+          - name: resultBn
+            label: মেটা কেস স্টাডি - ফলাফল (বাংলা)
+            type: text
+
+      - name: about
+        label: 5. About Me (আমার সম্পর্কে)
+        type: object
+        fields:
+          - name: storyEn
+            label: My Story (English)
+            type: text
+          - name: storyBn
+            label: আমার গল্প (বাংলা)
+            type: text
+
+      - name: faqs
+        label: 6. FAQ (সাধারণ প্রশ্নোত্তর)
+        type: object
+        list: true
+        fields:
+          - name: qEn
+            label: Question (English)
+            type: string
+          - name: qBn
+            label: প্রশ্ন (বাংলা)
+            type: string
+          - name: aEn
+            label: Answer (English)
+            type: text
+          - name: aBn
+            label: উত্তর (বাংলা)
+            type: text
