@@ -6,7 +6,7 @@
     "headlineBn": "আপনার আইডিয়াকে আকর্ষণীয় ভিডিও, পরিচ্ছন্ন ডিজাইন এবং কার্যকর মেটা অ্যাডে রূপান্তর করি।",
     "subheadlineEn": "Hi, I'm Siful Islam — a dedicated Video Editor, Graphic Designer & Meta Marketer helping brands and creators stand out online with modern visuals and AI-assisted workflows.",
     "subheadlineBn": "আমি সাইফুল ইসলাম — একজন ভিডিও এডিটর, গ্রাফিক ডিজাইনার ও মেটা মার্কেটার। আধুনিক ভিজ্যুয়াল ও AI-সমর্থিত কাজের মাধ্যমে আপনার ব্র্যান্ডকে অনলাইনে এগিয়ে নিতে সাহায্য করি।",
-    "profileImage": ""
+    "profileImage": "/images/Untitled-1.jpg"
   },
   "services": [
     {
@@ -14,19 +14,35 @@
       "icon": "video",
       "titleEn": "Video Editing",
       "titleBn": "ভিডিও এডিটিং",
-      "shortEn": "High-retention Reels, YouTube videos, promotional ads, and product showcase videos.",
-      "shortBn": "আকর্ষণীয় রিলস, ইউটিউব ভিডিও, বিজ্ঞাপন ভিডিও এবং প্রোডাক্ট প্রমোশনাল ভিডিও।",
+      "shortEn": "High-retention video editing for Reels, YouTube, Talking-head videos, and promotional ads with smooth motion graphics, clean cuts, and crisp audio.",
+      "shortBn": "দর্শকদের ধরে রাখার উপযোগী রিলস, ইউটিউব, টকিং-হেড এবং বিজ্ঞাপন ভিডিও এডিটিং—সাথে স্মুথ মোশন গ্রাফিক্স, পরিচ্ছন্ন কাট এবং স্পষ্ট সাউন্ড ডিজাইন।",
       "detailsEn": [
         "Facebook & Instagram Reels / Shorts editing",
         "Promotional & Ad videos for businesses",
         "YouTube talking-head & vlog editing",
-        "Smooth transitions, motion text & clean sound design"
+        "Smooth transitions, motion text & clean sound design",
+        "Rough cut, pacing & clean timeline assembly",
+        "Basic color correction & clean color grading",
+        "Engaging B-roll selection & seamless scene transitions",
+        "Motion graphics & kinetic text animation",
+        "Search motion effects, callouts & lower thirds",
+        "Dynamic Bangla & English captions / subtitles",
+        "Product showcase, travel & social media ad videos",
+        "Crisp audio leveling, background music & sound effects (SFX)"
       ],
       "detailsBn": [
         "ফেসবুক ও ইনস্টাগ্রাম রিলস / শর্টস এডিটিং",
         "ব্যবসার জন্য প্রমোশনাল ও বিজ্ঞাপন ভিডিও",
         "ইউটিউব ভিডিও ও ভ্লগ এডিটিং",
-        "স্মুথ ট্রানজিশন, মোশন টেক্সট ও পরিষ্কার সাউন্ড ডিজাইন"
+        "স্মুথ ট্রানজিশন, মোশন টেক্সট ও পরিষ্কার সাউন্ড ডিজাইন",
+        "রাফ কাট (Rough cut), সঠিক গতি এবং পরিচ্ছন্ন ভিডিও বিন্যাস",
+        "বেসিক কালার কারেকশন ও চোখে আরামদায়ক কালার গ্রেডিং",
+        "প্রাসঙ্গিক বি-রোল (B-roll) সংযোজন ও স্মুথ ট্রানজিশন",
+        "মোশন গ্রাফিক্স এবং টেক্সট অ্যানিমেশন",
+        "সার্চ মোশন ইফেক্ট, কলআউট এবং লোয়ার থার্ডস",
+        "আকর্ষণীয় বাংলা ও ইংরেজি ক্যাপশন / সাবটাইটেল",
+        "প্রোডাক্ট প্রমোশনাল, ট্রাভেল ও বিজ্ঞাপন ভিডিও তৈরি",
+        "পরিষ্কার ভয়েস লেভেলিং, ব্যাকগ্রাউন্ড মিউজিক ও সাউন্ড ইফেক্ট (SFX)"
       ]
     },
     {
@@ -34,19 +50,31 @@
       "icon": "palette",
       "titleEn": "Graphic Design",
       "titleBn": "গ্রাফিক ডিজাইন",
-      "shortEn": "Eye-catching social media posts, ad banners, YouTube thumbnails, and event posters.",
-      "shortBn": "চোখধাঁধানো সোশ্যাল মিডিয়া পোস্ট, অ্যাড ব্যানার, ইউটিউব থাম্বনেইল এবং পোস্টার।",
+      "shortEn": "Eye-catching social media posts, promotional flyers, ad banners, Poster, YouTube thumbnails, and clean typography designs built to grab attention.",
+      "shortBn": "ক্রেতাদের দৃষ্টি আকর্ষণের উপযোগী সোশ্যাল মিডিয়া পোস্ট, প্রমোশনাল ফ্লায়ার, অ্যাড ব্যানার, পোস্টার, ইউটিউব থাম্বনেইল এবং পরিচ্ছন্ন টাইপোগ্রাফি ডিজাইন",
       "detailsEn": [
-        "Scroll-stopping Facebook & Instagram post designs",
+        "Scroll-stopping Facebook & Instagram social media posts",
         "High-CTR YouTube video thumbnails",
-        "Web banners, flyers, and promotional posters",
-        "Brand-consistent colors and clean typography"
+        "Promotional flyers, leaflets & event posters",
+        "Facebook cover photos, web banners & ad creatives",
+        "Bangla & English typography-focused poster designs",
+        "Clean brand logo marks & geometric compositions",
+        "Product photo background removal & color retouching",
+        "Carousel post designs for informative storytelling",
+        "Business cards, ID cards & basic print-ready layouts",
+        "Editable Canva templates for daily social media use"
       ],
       "detailsBn": [
-        "আকর্ষণীয় ফেসবুক ও ইনস্টাগ্রাম পোস্ট ডিজাইন",
+        "আকর্ষণীয় ফেসবুক ও ইনস্টাগ্রাম সোশ্যাল মিডিয়া পোস্ট ডিজাইন",
         "ক্লিক-যোগ্য ইউটিউব ভিডিও থাম্বনেইল",
-        "ওয়েব ব্যানার, ফ্লায়ার এবং প্রমোশনাল পোস্টার",
-        "ব্র্যান্ডের সাথে মানানসই রং ও পরিচ্ছন্ন টাইপোগ্রাফি"
+        "প্রমোশনাল ফ্লায়ার, লিফলেট এবং ইভেন্ট পোস্টার",
+        "ফেসবুক কভার ফটো, ওয়েব ব্যানার ও বিজ্ঞাপন ক্রিয়েটিভ",
+        "বাংলা ও ইংরেজি টাইপোগ্রাফি-নির্ভর পোস্টার ডিজাইন",
+        "পরিচ্ছন্ন ব্র্যান্ড লোগো মার্ক ও জ্যামিতিক কম্পোজিশন",
+        "প্রোডাক্ট ছবির ব্যাকগ্রাউন্ড পরিবর্তন ও কালার রিটাচিং",
+        "তথ্যবহুল সোশ্যাল মিডিয়া ক্যারোসেল (Carousel) পোস্ট ডিজাইন",
+        "ভিজিটিং কার্ড, আইডি কার্ড ও প্রিন্ট-রেডি লেআউট",
+        "নিয়মিত ব্যবহারের জন্য এডিটেবল ক্যানভা (Canva) টেমপ্লেট"
       ]
     },
     {
@@ -97,14 +125,7 @@
       "oneLinerBn": "ডাইনামিক ক্যাপশন ও সাউন্ড ইফেক্টসহ ৩০ সেকেন্ডের আকর্ষণীয় প্রমোশনাল ভিডিও এডিট।",
       "roleEn": "Video Editing, Motion Text & Sound Sync (Premiere Pro & After Effects)",
       "roleBn": "ভিডিও এডিটিং, মোশন টেক্সট ও সাউন্ড সিঙ্ক (Premiere Pro ও After Effects)",
-      "youtubeId": "dQw4w9WgXcQ",
-      "image": "",
-      "goalEn": "",
-      "goalBn": "",
-      "actionEn": "",
-      "actionBn": "",
-      "resultEn": "",
-      "resultBn": ""
+      "youtubeId": "dQw4w9WgXcQ"
     },
     {
       "id": "sample-design-1",
@@ -117,15 +138,7 @@
       "oneLinerEn": "Clean commercial social media creative designed for higher engagement and clarity.",
       "oneLinerBn": "ক্রেতাদের দৃষ্টি আকর্ষণের জন্য পরিচ্ছন্ন কমার্শিয়াল সোশ্যাল মিডিয়া পোস্ট ডিজাইন।",
       "roleEn": "Concept, Layout & Typography (Adobe Photoshop & Illustrator)",
-      "roleBn": "কনসেপ্ট, লেআউট ও টাইপোগ্রাফি (Adobe Photoshop ও Illustrator)",
-      "youtubeId": "",
-      "image": "",
-      "goalEn": "",
-      "goalBn": "",
-      "actionEn": "",
-      "actionBn": "",
-      "resultEn": "",
-      "resultBn": ""
+      "roleBn": "কনসেপ্ট, লেআউট ও টাইপোগ্রাফি (Adobe Photoshop ও Illustrator)"
     },
     {
       "id": "sample-meta-1",
@@ -139,8 +152,6 @@
       "oneLinerBn": "সঠিক অডিয়েন্স টার্গেটিং ও ক্রিয়েটিভ টেস্টিংসহ ফেসবুক বিজ্ঞাপন ক্যাম্পেইন সেটআপ।",
       "roleEn": "Campaign Setup, Audience Targeting & Ad Creative",
       "roleBn": "ক্যাম্পেইন সেটআপ, অডিয়েন্স টার্গেটিং ও অ্যাড ক্রিয়েটিভ",
-      "youtubeId": "",
-      "image": "",
       "goalEn": "Reach relevant local customers interested in everyday lifestyle products and drive direct inbox inquiries.",
       "goalBn": "দৈনন্দিন পণ্যে আগ্রহী সঠিক ক্রেতাদের কাছে পৌঁছানো এবং পেজের ইনবক্সে সরাসরি মেসেজ বাড়ানো।",
       "actionEn": "Configured Business Manager, designed scroll-stopping ad visuals, wrote clear Bangla ad copy, and set up interest-based audience targeting.",
@@ -160,14 +171,7 @@
       "oneLinerBn": "AI-তৈরি দৃশ্য এবং ম্যানুয়াল Premiere Pro এডিটিংয়ের সমন্বয়ে তৈরি বিজ্ঞাপন কনসেপ্ট।",
       "roleEn": "AI Prompting, Scene Generation & Final Video Assembly",
       "roleBn": "AI প্রম্পটিং, দৃশ্য তৈরি ও চূড়ান্ত ভিডিও এডিটিং",
-      "youtubeId": "dQw4w9WgXcQ",
-      "image": "",
-      "goalEn": "",
-      "goalBn": "",
-      "actionEn": "",
-      "actionBn": "",
-      "resultEn": "",
-      "resultBn": ""
+      "youtubeId": "dQw4w9WgXcQ"
     },
     {
       "id": "sample-design-2",
@@ -180,20 +184,12 @@
       "oneLinerEn": "High-contrast thumbnail and typography-focused poster designed for mobile readability.",
       "oneLinerBn": "মোবাইল স্ক্রিনে স্পষ্ট পড়ার উপযোগী হাই-কনট্রাস্ট থাম্বনেইল ও পোস্টার ডিজাইন।",
       "roleEn": "Photo Retouching & Bangla/English Typography (Photoshop & Canva)",
-      "roleBn": "ফটো রিটাচিং ও বাংলা/ইংরেজি টাইপোগ্রাফি (Photoshop ও Canva)",
-      "youtubeId": "",
-      "image": "",
-      "goalEn": "",
-      "goalBn": "",
-      "actionEn": "",
-      "actionBn": "",
-      "resultEn": "",
-      "resultBn": ""
+      "roleBn": "ফটো রিটাচিং ও বাংলা/ইংরেজি টাইপোগ্রাফি (Photoshop ও Canva)"
     }
   ],
   "about": {
-    "storyEn": "I am Siful Islam, a passionate fresher specializing in Video Editing, Graphic Design, and Meta Marketing. I combine hands-on training in visual storytelling and small business marketing with modern AI tools to deliver clean, effective digital content. Whether you need engaging social media videos, eye-catching graphics, or structured Facebook ad campaigns, I focus on clear communication, honest work, and on-time delivery.",
-    "storyBn": "আমি সাইফুল ইসলাম — ভিডিও এডিটিং, গ্রাফিক ডিজাইন ও মেটা মার্কেটিংয়ে দক্ষ একজন নিবেদিতপ্রাণ ফ্রেশার। ভিজ্যুয়াল স্টোরিটেলিং এবং স্মল বিজনেস মার্কেটিংয়ের বাস্তব প্রশিক্ষণের সাথে আধুনিক AI টুল ব্যবহার করে আমি পরিচ্ছন্ন ও কার্যকর ডিজিটাল কনটেন্ট তৈরি করি। সোশ্যাল মিডিয়া ভিডিও, আকর্ষণীয় গ্রাফিক্স কিংবা গোছানো ফেসবুক বিজ্ঞাপন—প্রতিটি কাজে আমি স্বচ্ছ যোগাযোগ এবং সময়মতো ডেলিভারিকে সর্বোচ্চ গুরুত্ব দিই।"
+    "storyEn": "  I am Siful Islam, a dedicated Video Editor, Graphic Designer, and Meta Marketer. I combine practical training in creative design, video editing, and small business marketing with modern AI tools to deliver clean, effective digital content. Whether you need engaging social media videos, eye-catching graphics, or structured Facebook ad campaigns, I focus on clear communication, honest work, and on-time delivery.",
+    "storyBn": "আমি সাইফুল ইসলাম — একজন নিবেদিতপ্রাণ ভিডিও এডিটর, গ্রাফিক ডিজাইনার ও মেটা মার্কেটার। ক্রিয়েটিভ ডিজাইন, ভিডিও এডিটিং এবং স্মল বিজনেস মার্কেটিংয়ের বাস্তব প্রশিক্ষণের সাথে আধুনিক AI টুল ব্যবহার করে আমি পরিচ্ছন্ন ও কার্যকর ডিজিটাল কনটেন্ট তৈরি করি। সোশ্যাল মিডিয়া ভিডিও, আকর্ষণীয় গ্রাফিক্স কিংবা গোছানো ফেসবুক বিজ্ঞাপন—প্রতিটি কাজে আমি স্বচ্ছ যোগাযোগ, সততা এবং সময়মতো ডেলিভারিকে সর্বোচ্চ গুরুত্ব দিই।"
   },
   "faqs": [
     {
