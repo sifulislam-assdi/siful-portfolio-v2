@@ -115,90 +115,103 @@ export default function PortfolioSection() {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           <AnimatePresence mode="popLayout">
-            {filteredItems.map((item) => (
-              <motion.div
-                layout
-                key={item.id}
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                transition={{ duration: 0.25 }}
-                whileHover={{ y: -5 }}
-                onClick={() => setSelectedItem(item)}
-                className="group cursor-pointer rounded-2xl bg-[#1E293B]/85 border border-slate-800 hover:border-[#38BDF8]/70 overflow-hidden shadow-lg hover:shadow-[0_12px_28px_rgba(56,189,248,0.14)] transition-all duration-300 flex flex-col justify-between"
-              >
-                <div>
-                  <div className="relative aspect-video bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0B1120] flex items-center justify-center overflow-hidden border-b border-slate-800">
-                    {item.image ? (
-                      <img
-                        src={item.image}
-                        alt={lang === "en" ? item.titleEn : item.titleBn}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      />
-                    ) : (
-                      <div className="flex flex-col items-center text-slate-400 group-hover:text-[#38BDF8] transition-colors">
-                        {item.youtubeId ? (
-                          <div className="w-12 h-12 rounded-full bg-[#38BDF8]/20 border border-[#38BDF8]/50 flex items-center justify-center text-[#38BDF8] group-hover:scale-110 transition-transform">
-                            <Play className="w-5 h-5 fill-current ml-0.5" />
-                          </div>
-                        ) : item.category === "Meta Marketing" ? (
-                          <BarChart3 className="w-10 h-10 text-[#38BDF8]" />
-                        ) : (
-                          <ImageIcon className="w-10 h-10 text-[#38BDF8]" />
-                        )}
-                        <span className="text-xs mt-2 font-medium">
-                          {lang === "en"
-                            ? "Click to Preview"
-                            : "প্রিভিউ দেখতে ক্লিক করুন"}
-                        </span>
-                      </div>
-                    )}
+            {filteredItems.map((item) => {
+              const thumbnailSrc = item.image
+                ? item.image
+                : item.youtubeId
+                ? `https://img.youtube.com/vi/${item.youtubeId}/hqdefault.jpg`
+                : null;
 
-                    {/* ব্যাজসমূহ: Featured, Sample Project, AI-assisted */}
-                    <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
-                      {item.featured && (
-                        <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md text-[11px] font-semibold bg-[#38BDF8] text-[#0B1120]">
-                          <Star className="w-3 h-3 fill-current" />
-                          Featured
-                        </span>
+              return (
+                <motion.div
+                  layout
+                  key={item.id}
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.95 }}
+                  transition={{ duration: 0.25 }}
+                  whileHover={{ y: -5 }}
+                  onClick={() => setSelectedItem(item)}
+                  className="group cursor-pointer rounded-2xl bg-[#1E293B]/85 border border-slate-800 hover:border-[#38BDF8]/70 overflow-hidden shadow-lg hover:shadow-[0_12px_28px_rgba(56,189,248,0.14)] transition-all duration-300 flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="relative aspect-video bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0B1120] flex items-center justify-center overflow-hidden border-b border-slate-800">
+                      {thumbnailSrc ? (
+                        <>
+                          <img
+                            src={thumbnailSrc}
+                            alt={lang === "en" ? item.titleEn : item.titleBn}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                          />
+                          {item.youtubeId && (
+                            <div className="absolute inset-0 bg-black/25 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+                              <div className="w-12 h-12 rounded-full bg-[#38BDF8]/90 text-[#0B1120] flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                                <Play className="w-5 h-5 fill-current ml-0.5" />
+                              </div>
+                            </div>
+                          )}
+                        </>
+                      ) : (
+                        <div className="flex flex-col items-center text-slate-400 group-hover:text-[#38BDF8] transition-colors">
+                          {item.category === "Meta Marketing" ? (
+                            <BarChart3 className="w-10 h-10 text-[#38BDF8]" />
+                          ) : (
+                            <ImageIcon className="w-10 h-10 text-[#38BDF8]" />
+                          )}
+                          <span className="text-xs mt-2 font-medium">
+                            {lang === "en"
+                              ? "Click to Preview"
+                              : "প্রিভিউ দেখতে ক্লিক করুন"}
+                          </span>
+                        </div>
                       )}
-                      {item.isSample && (
-                        <span className="px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-slate-900/90 text-slate-200 border border-slate-700">
-                          Sample Project
-                        </span>
-                      )}
-                      {item.isAiAssisted && (
-                        <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-purple-500/20 text-purple-200 border border-purple-400/40">
-                          <Sparkles className="w-3 h-3" />
-                          AI-assisted
-                        </span>
-                      )}
+
+                      {/* ব্যাজসমূহ: Featured, Sample Project, AI-assisted */}
+                      <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-1.5">
+                        {item.featured && (
+                          <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md text-[11px] font-semibold bg-[#38BDF8] text-[#0B1120]">
+                            <Star className="w-3 h-3 fill-current" />
+                            Featured
+                          </span>
+                        )}
+                        {item.isSample && (
+                          <span className="px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-slate-900/90 text-slate-200 border border-slate-700">
+                            Sample Project
+                          </span>
+                        )}
+                        {item.isAiAssisted && (
+                          <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-purple-500/20 text-purple-200 border border-purple-400/40">
+                            <Sparkles className="w-3 h-3" />
+                            AI-assisted
+                          </span>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="p-5">
+                      <span className="text-xs font-medium text-[#38BDF8]">
+                        {item.category}
+                      </span>
+                      <h3 className="mt-1 text-lg font-bold text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors">
+                        {lang === "en" ? item.titleEn : item.titleBn}
+                      </h3>
+                      <p className="mt-2 text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        {lang === "en" ? item.oneLinerEn : item.oneLinerBn}
+                      </p>
                     </div>
                   </div>
 
-                  <div className="p-5">
-                    <span className="text-xs font-medium text-[#38BDF8]">
-                      {item.category}
-                    </span>
-                    <h3 className="mt-1 text-lg font-bold text-[#F8FAFC] group-hover:text-[#38BDF8] transition-colors">
-                      {lang === "en" ? item.titleEn : item.titleBn}
-                    </h3>
-                    <p className="mt-2 text-xs sm:text-sm text-slate-300 leading-relaxed">
-                      {lang === "en" ? item.oneLinerEn : item.oneLinerBn}
+                  <div className="px-5 pb-5 pt-2">
+                    <p className="text-[11px] text-slate-400 border-t border-slate-800 pt-3">
+                      <strong className="text-slate-300">
+                        {lang === "en" ? "Role: " : "আমার ভূমিকা: "}
+                      </strong>
+                      {lang === "en" ? item.roleEn : item.roleBn}
                     </p>
                   </div>
-                </div>
-
-                <div className="px-5 pb-5 pt-2">
-                  <p className="text-[11px] text-slate-400 border-t border-slate-800 pt-3">
-                    <strong className="text-slate-300">
-                      {lang === "en" ? "Role: " : "আমার ভূমিকা: "}
-                    </strong>
-                    {lang === "en" ? item.roleEn : item.roleBn}
-                  </p>
-                </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              );
+            })}
           </AnimatePresence>
         </motion.div>
       </div>
