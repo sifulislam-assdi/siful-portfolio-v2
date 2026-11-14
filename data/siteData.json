@@ -142,23 +142,18 @@
       "youtubeId": "I3iqFMhFjAw"
     },
     {
-      "id": "sample-meta-1",
-      "category": "Meta Marketing",
-      "featured": true,
+      "id": "ui-search-motion",
+      "category": "Video Editing",
+      "featured": false,
       "isSample": true,
       "isAiAssisted": false,
-      "titleEn": "Local Brand Awareness & Lead Campaign",
-      "titleBn": "লোকাল ব্র্যান্ড সচেতনতা ও লিড ক্যাম্পেইন",
-      "oneLinerEn": "Structured Facebook ad campaign setup with audience segmentation and creative testing.",
-      "oneLinerBn": "সঠিক অডিয়েন্স টার্গেটিং ও ক্রিয়েটিভ টেস্টিংসহ ফেসবুক বিজ্ঞাপন ক্যাম্পেইন সেটআপ।",
-      "roleEn": "Campaign Setup, Audience Targeting & Ad Creative",
-      "roleBn": "ক্যাম্পেইন সেটআপ, অডিয়েন্স টার্গেটিং ও অ্যাড ক্রিয়েটিভ",
-      "goalEn": "Reach relevant local customers interested in everyday lifestyle products and drive direct inbox inquiries.",
-      "goalBn": "দৈনন্দিন পণ্যে আগ্রহী সঠিক ক্রেতাদের কাছে পৌঁছানো এবং পেজের ইনবক্সে সরাসরি মেসেজ বাড়ানো।",
-      "actionEn": "Configured Business Manager, designed scroll-stopping ad visuals, wrote clear Bangla ad copy, and set up interest-based audience targeting.",
-      "actionBn": "বিজনেস ম্যানেজার সেটআপ, আকর্ষণীয় অ্যাড ডিজাইন, সহজ বাংলায় বিজ্ঞাপনের লেখা এবং আগ্রহভিত্তিক কাস্টমার টার্গেটিং সম্পন্ন করা হয়েছে।",
-      "resultEn": "Delivered a clean, trackable campaign structure ready for scaling with organized performance reporting in Google Sheets.",
-      "resultBn": "সহজে ট্র্যাক করার উপযোগী ক্যাম্পেইন কাঠামো তৈরি এবং Google Sheets-এ পরিষ্কার ফলাফল রিপোর্ট প্রস্তুত করা হয়েছে।"
+      "titleEn": "Smooth Search & UI Cursor Motion Graphics — Kinetic Typography Promo",
+      "titleBn": "স্মুথ সার্চ ও UI কার্সর মোশন গ্রাফিক্স — কাইনেটিক টাইপোগ্রাফি প্রোমো",
+      "oneLinerEn": "A clean 7-second UI and kinetic typography motion graphics animation built in Adobe After Effects, featuring smooth typewriter text reveals, horizontal slide transitions, pill-button pop-ins, and a realistic cursor click effect.",
+      "oneLinerBn": "Adobe After Effects-এ তৈরি ৭ সেকেন্ডের একটি ক্লিন UI ও কাইনেটিক টাইপোগ্রাফি মোশন গ্রাফিক্স অ্যানিমেশন। এতে টাইপরাইটার টেক্সট রিভিল, হরিজন্টাল স্লাইড ট্রানজিশন, বাটন পপ-ইন এবং কার্সর ক্লিক ইফেক্ট ব্যবহার করা হয়েছে।",
+      "roleEn": "UI Motion Graphics, Typewriter & Kinetic Typography Animation, Easing Keyframes & Sound Sync (Adobe After Effects)",
+      "roleBn": "UI মোশন গ্রাফিক্স, টাইপরাইটার ও কাইনেটিক টাইপোগ্রাফি অ্যানিমেশন, স্মুথ কী-ফ্রেম ইজিং ও সাউন্ড সিঙ্ক (Adobe After Effects)",
+      "youtubeId": "6vk1yaWLR3g"
     },
     {
       "id": "sample-ai-1",
