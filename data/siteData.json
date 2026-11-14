@@ -160,14 +160,14 @@
       "category": "AI-assisted",
       "featured": false,
       "isSample": true,
-      "isAiAssisted": true,
-      "titleEn": "AI-Assisted Travel Promo Concept",
-      "titleBn": "AI-Assisted ট্রাভেল প্রমোশনাল কনসেপ্ট",
-      "oneLinerEn": "Visual storytelling ad concept combining AI-generated scenes with manual Premiere Pro editing.",
-      "oneLinerBn": "AI-তৈরি দৃশ্য এবং ম্যানুয়াল Premiere Pro এডিটিংয়ের সমন্বয়ে তৈরি বিজ্ঞাপন কনসেপ্ট।",
-      "roleEn": "AI Prompting, Scene Generation & Final Video Assembly",
-      "roleBn": "AI প্রম্পটিং, দৃশ্য তৈরি ও চূড়ান্ত ভিডিও এডিটিং",
-      "youtubeId": "dQw4w9WgXcQ"
+      "isAiAssisted": false,
+      "titleEn": "Podcast Motion Clip Edit",
+      "titleBn": "পডকাস্ট মোশন ক্লিপ এডিট",
+      "oneLinerEn": "A 16-second high-retention Bangla podcast clip edited with glowing Bengali kinetic typography, animated number counters (1–8), custom B-roll visual storytelling, punch-in zooms, banner text overlays, and crisp SFX.",
+      "oneLinerBn": "একটি বাংলা পডকাস্ট আলোচনার ১৬ সেকেন্ডের হাই-রিটেনশন ক্লিপ এডিট। এতে গ্লোয়িং বাংলা কাইনেটিক টাইপোগ্রাফি, অ্যানিমেটেড নাম্বার কাউন্টার (১–৮), কাস্টম বি-রোল ভিজ্যুয়াল, পাঞ্চ-ইন জুম, ব্যানার টেক্সট ওভারলে এবং সাউন্ড ইফেক্ট ব্যবহার করা হয়েছে।",
+      "roleEn": "Podcast Clip Video Editing, Bengali & English Kinetic Typography, Motion Overlays, B-Roll Compositing & Sound Design (Premiere Pro & After Effects)",
+      "roleBn": "পডকাস্ট ক্লিপ ভিডিও এডিটিং, বাংলা ও ইংরেজি কাইনেটিক টাইপোগ্রাফি, মোশন ওভারলে, বি-রোল কম্পোজিটিং ও সাউন্ড ডিজাইন (Premiere Pro এবং After Effects)",
+      "youtubeId": "wieQixiJmsI"
     },
     {
       "id": "sample-design-2",
