@@ -128,17 +128,18 @@
       "youtubeId": "z_nn-_WPtEE"
     },
     {
-      "id": "sample-design-1",
-      "category": "Graphic Design",
+      "id": "3d-camera-effect",
+      "category": "Video Editing",
       "featured": true,
-      "isSample": true,
+      "isSample": false,
       "isAiAssisted": false,
-      "titleEn": "Social Media Product Ad Banner",
-      "titleBn": "সোশ্যাল মিডিয়া প্রোডাক্ট অ্যাড ব্যানার",
-      "oneLinerEn": "Clean commercial social media creative designed for higher engagement and clarity.",
-      "oneLinerBn": "ক্রেতাদের দৃষ্টি আকর্ষণের জন্য পরিচ্ছন্ন কমার্শিয়াল সোশ্যাল মিডিয়া পোস্ট ডিজাইন।",
-      "roleEn": "Concept, Layout & Typography (Adobe Photoshop & Illustrator)",
-      "roleBn": "কনসেপ্ট, লেআউট ও টাইপোগ্রাফি (Adobe Photoshop ও Illustrator)"
+      "titleEn": "3D Camera & Parallax Space Animation — Sky-to-Orbit Motion Graphics",
+      "titleBn": "থ্রিডি ক্যামেরা ও প্যারালাক্স স্পেস অ্যানিমেশন — স্কাই-টু-অরবিট মোশন গ্রাফিক্স",
+      "oneLinerEn": "3D Camera Effect & Parallax Space Animation — After Effects Motion Graphics",
+      "oneLinerBn": "থ্রিডি ক্যামেরা ইফেক্ট ও প্যারালাক্স স্পেস অ্যানিমেশন — আফটার ইফেক্টস মোশন গ্রাফিক্স",
+      "roleEn": "3D Camera Effect, Multi-Layer Parallax Compositing, Seamless Scene Transition & Motion Blur (Adobe After Effects)",
+      "roleBn": "থ্রিডি ক্যামেরা ইফেক্ট, মাল্টি-লেয়ার প্যারালাক্স কম্পোজিটিং, সিমলেস সিন ট্রানজিশন ও মোশন ব্লার (Adobe After Effects)",
+      "youtubeId": "I3iqFMhFjAw"
     },
     {
       "id": "sample-meta-1",
