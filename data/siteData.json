@@ -114,18 +114,18 @@
   ],
   "portfolio": [
     {
-      "id": "sample-video-1",
+      "id": "fanta-motion",
       "category": "Video Editing",
       "featured": true,
       "isSample": true,
       "isAiAssisted": false,
-      "titleEn": "Promotional Brand Reel (Sample)",
-      "titleBn": "প্রমোশনাল ব্র্যান্ড রিল (নমুনা)",
-      "oneLinerEn": "Fast-paced 30-second promotional video edit with dynamic captions and sound effects.",
-      "oneLinerBn": "ডাইনামিক ক্যাপশন ও সাউন্ড ইফেক্টসহ ৩০ সেকেন্ডের আকর্ষণীয় প্রমোশনাল ভিডিও এডিট।",
-      "roleEn": "Video Editing, Motion Text & Sound Sync (Premiere Pro & After Effects)",
-      "roleBn": "ভিডিও এডিটিং, মোশন টেক্সট ও সাউন্ড সিঙ্ক (Premiere Pro ও After Effects)",
-      "youtubeId": "dQw4w9WgXcQ"
+      "titleEn": "Fanta Orange — Product Motion Graphics & Kinetic Typography Ad",
+      "titleBn": "ফান্টা অরেঞ্জ — প্রোডাক্ট মোশন গ্রাফিক্স ও কাইনেটিক টাইপোগ্রাফি বিজ্ঞাপন",
+      "oneLinerEn": "A 7-second high-energy product commercial animation created for Fanta Orange, featuring bold kinetic typography, smooth orange-slice transitions, dynamic product reveal, and a clean brand logo outro.",
+      "oneLinerBn": "ফান্টা অরেঞ্জের জন্য তৈরি ৭ সেকেন্ডের একটি আকর্ষণীয় প্রোডাক্ট কমার্শিয়াল অ্যানিমেশন। এতে কাইনেটিক টাইপোগ্রাফি, কমলার স্লাইস ট্রানজিশন, প্রোডাক্ট রিভিল এবং ক্লিন ব্র্যান্ড লোগো আউট্রো ব্যবহার করা হয়েছে।",
+      "roleEn": "Motion Graphics Design, Kinetic Typography, Keyframe Animation & Sound Sync (Adobe After Effects & Premiere Pro)",
+      "roleBn": "মোশন গ্রাফিক্স ডিজাইন, কাইনেটিক টাইপোগ্রাফি, কী-ফ্রেম অ্যানিমেশন ও সাউন্ড সিঙ্ক (Adobe After Effects এবং Premiere Pro)",
+      "youtubeId": "z_nn-_WPtEE"
     },
     {
       "id": "sample-design-1",
