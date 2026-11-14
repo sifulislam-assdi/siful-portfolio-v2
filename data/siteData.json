@@ -158,8 +158,8 @@
     {
       "id": "sample-ai-1",
       "category": "AI-assisted",
-      "featured": false,
-      "isSample": true,
+      "featured": true,
+      "isSample": false,
       "isAiAssisted": false,
       "titleEn": "Podcast Motion Clip Edit",
       "titleBn": "পডকাস্ট মোশন ক্লিপ এডিট",
